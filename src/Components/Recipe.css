@@ -1,0 +1,5 @@
+#recipeCard{
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgb(31,41,55) 0%, rgb(31,41,55) 100%);
+}
