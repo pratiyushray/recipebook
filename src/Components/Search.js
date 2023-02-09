@@ -2,7 +2,7 @@ import React from 'react'
 
 function Search() {
   return (
-    <div className='px-3 py-3'>
+    <div className='px-3 py-3 z-0'>
     <form className="flex items-center">   
     <label for="simple-search" className="sr-only">Search</label>
     <div className="relative w-full">

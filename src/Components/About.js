@@ -18,8 +18,6 @@ function About() {
       <br />
       <p className="font-medium"> started vegrecipesofindia.com in February 2009 to keep a log (online journal) of my family recipes and the ones which I had developed back then along with the recipes I was trained in.
 
-        It was on the insistence of my husband that I started maintaining this online journal. Of course I had no idea back then that my blog would grow so much and become India’s most popular vegetarian food blog.
-
         Initially our brand name was “Veg Recipes of India” which we later changed in June 2020 to “Dassana’s Veg Recipes“. This brand change was made to broaden our vision of sharing vegetarian recipes from all over the world and not just specific to Indian cuisine.
         I have been sharing global recipes right from day one when I started with the blog. But we felt that since I was trained professionally in cooking, baking, confectionary and having experience of International as well as Indian cuisine, it was time to showcase that on the blog.
 

@@ -9,7 +9,7 @@ function OnlineTutorials() {
     <div className="sm:flex sm:flex-col  md:flex-col md:inline-grid md:grid-cols-2 md:gap-5 lg:inline-grid lg:grid-cols-3 lg:gap-5 xl:inline-grid xl:grid-cols-3 xl:gap-5 2xl:inline-grid 2xl:grid-cols-4 2xl:gap-5">
       {/* First Div  */}
       <div className="container flex flex-col w-40 flex-wrap mt-10 ml-10 mr-40">
-        <iframe src="https://www.youtube.com/embed/fo_If5EpwZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/fo_If5EpwZs" title='video_one' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
         <div className="card-body">
           <h5 className="card-title text-white font-bold">Crème Caramel</h5>
@@ -21,7 +21,7 @@ function OnlineTutorials() {
       </div>
         {/* Second Div  */}
         <div className="container flex flex-col w-40 flex-wrap mt-10 ml-10">
-        <iframe src="https://www.youtube.com/embed/_wIEVElP8Cw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/_wIEVElP8Cw" title='video_two' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
         <div className="card-body">
           <h5 className="card-title text-white font-bold">Cheese Cake</h5>
@@ -33,7 +33,7 @@ function OnlineTutorials() {
       </div>
         {/* Third Div  */}
         <div className="container flex flex-col w-40 flex-wrap mt-10 ml-10">
-        <iframe src="https://www.youtube.com/embed/DtfwHUiCLag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/DtfwHUiCLag" title='video_three' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
         <div className="card-body">
           <h5 className="card-title text-white font-bold">The Pizza Challenge</h5>
@@ -46,7 +46,7 @@ function OnlineTutorials() {
 
         {/* Fourth Div  */}
         <div className="container flex flex-col w-40 flex-wrap mt-10 ml-10">
-        <iframe src="https://www.youtube.com/embed/eFS8orlJpfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/eFS8orlJpfg" title='video_four' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
         <div className="card-body">
           <h5 className="card-title text-white font-bold">Canadian Burger</h5>
@@ -59,7 +59,7 @@ function OnlineTutorials() {
 
         {/* Fifth Div  */}
         <div className="container flex flex-col w-40 flex-wrap mt-10 ml-10">
-        <iframe src="https://www.youtube.com/embed/m46iXKv5HeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/m46iXKv5HeU" title='video_five' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
         <div className="card-body">
           <h5 className="card-title text-white font-bold">Maki Sushi Rolls</h5>

@@ -1,9 +1,19 @@
 import React from 'react';
 
 function Footer() {
+    function scrollToTop() {
+        if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+            window.scrollBy(0, -40);
+            requestAnimationFrame(scrollToTop);
+        }
+    }
   return (
     <div className='mt-8'>
         <footer className="bg-white dark:bg-gray-900">
+        <div className='footer text-white text-center pt-4 pb-4' onClick={scrollToTop}>
+            <button className='btn__back' onClick={scrollToTop}>Back to top</button>
+        </div>  
+        <hr/>
             <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>

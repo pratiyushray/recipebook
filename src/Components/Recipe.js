@@ -1,6 +1,25 @@
 import React from 'react';
 import './Recipe.css';
 import Search from './Search';
+import axios from "axios";
+
+
+const options = {
+    method: 'GET',
+    url: 'https://tasty.p.rapidapi.com/recipes/list',
+    params: {from: '0', size: '20', tags: 'under_30_minutes'},
+    headers: {
+        'X-RapidAPI-Key': 'fd4e839c6cmsh1d82410c6fabaf8p1b4328jsn6c3f249c904a',
+        'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
+    }
+};
+
+// const [datastore, useDatastore]=useState("");
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
 
 function Recipe() {
   return (
