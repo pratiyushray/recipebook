@@ -41,6 +41,11 @@ function Signup() {
     }
 
   return (
+    <>
+    <div className='flex flex-col items-center mt-4'>
+    <h1 class="mb-8 text-4xl font-bold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight dark:text-gray-50"><span>Explore</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-blue-400 to-purple-500 lg:inline">Learn</span> <span>Build 🚀</span></h1>
+    <hr className='mt-0'/>
+    </div>
     <div className={styles.container}>
         <div className={styles.innerBox}>
             <h1 className="font-bold text-xl">Signup</h1>
@@ -62,6 +67,7 @@ function Signup() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

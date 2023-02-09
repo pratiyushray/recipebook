@@ -10,9 +10,15 @@ import Queries from "./Components/Queries";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import React, { useEffect,useState } from 'react';
-import {auth} from "../src/Components/firebase";
-import Loader from "./Components/Loader";
+import {auth} from "../src/Components/firebase"
 function App() {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log('This will run after 1 second!')
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   const [userName,setUserName]=useState("");
   useEffect(()=>{
     auth.onAuthStateChanged((user)=>{
@@ -23,22 +29,8 @@ function App() {
     });
   },[]);
 
-  const [loading,setLoading]=useState(true);
-
-
-  useEffect(()=>{
-    setTimeout(()=>{
-      setLoading(false)
-    },5000)
-  })
-
   return (
-
     <div className="App">
-      {
-        loading?
-        <Loader/>
-        :
       <Router>
         <Routes>
           <Route exact path="/" element={<><Header/><Home name={userName}/><Footer/></>}></Route>
@@ -51,8 +43,6 @@ function App() {
 
         </Routes>
       </Router>
-
-      }
     </div>
   );
 }

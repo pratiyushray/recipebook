@@ -2,6 +2,11 @@ import React from 'react'
 
 function Queries() {
   return (
+  <>
+    <div className='flex flex-col items-center mt-4'>
+    <h1 class="mb-8 text-4xl font-bold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight dark:text-gray-50"><span>Explore</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-blue-400 to-purple-500 lg:inline">Learn</span> <span>Build 🚀</span></h1>
+    <hr className='mt-0'/>
+    </div>
     <div className='container w-4/5 ml-10 mt-5'>            
       <form>
       <div class="grid md:grid-cols-2 md:gap-6">
@@ -32,6 +37,8 @@ function Queries() {
       </form>
 
     </div>
+
+    </>
   )
 }
 
